@@ -1,0 +1,347 @@
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .pincode p {
+        display: none;
+    }
+    
+    .download_app p {
+        display: none;
+    }
+    
+    .nav-links p {
+        display: none;
+    }
+    
+    .nav-links li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 10px 15px;
+    }
+    
+    .divider,
+    .pincode,
+    .download_app {
+        display: none;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        padding: 10px 0;
+    }
+    
+    .nav-links.show {
+        display: flex !important;
+    }
+    
+    .nav-links li {
+        width: 100%;
+        margin: 0;
+        padding: 10px 20px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .nav-links i {
+        margin-right: 15px;
+    }
+    
+    .nav-links p {
+        display: block;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+
+
+    .search-layout > div {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .search-header {
+        flex-direction: column; /* Stack elements in smaller screens */
+        align-items: flex-start;
+    }
+
+    .search-header > h2 {
+        font-size: 16px;
+    }
+
+    .search-header > p {
+        font-size: 12px;
+    }
+
+    .search-header > div {
+        font-size: 12px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .search-bar > i {
+        margin: 5px 0;
+    }
+
+    .search-bar > input[type="text"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .search-bar > input[type="submit"] {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .cards-layout {
+        flex-direction: column;
+        align-items: center; /* Center cards */
+    }
+
+    .cards-layout > div {
+        width: 90%; /* Make cards take most of the screen */
+        max-width: 100%;
+    }
+
+    .new-user-offer > h1 {
+        font-size: 18px; /* Reduce heading size */
+    }
+
+    .shop-categories > .title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .shop-categories > div {
+        gap: 15px;
+    }
+
+    .shop-categories > div > div {
+        width: 120px; /* Reduce width for better fit */
+    }
+
+    .shop-categories img {
+        max-width: 100px;
+    }
+
+    .shop-categories h4 {
+        font-size: 13px;
+    }
+
+    .become-plus-member {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .become-plus-member h2 {
+        font-size: 20px;
+    }
+
+    .become-plus-member p {
+        font-size: 14px;
+    }
+
+    .become-plus-member button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .become-plus-member img {
+        display: none;
+    }
+
+
+    .shop-by-concern > div {
+        gap: 15px;
+    }
+
+    .shop-by-concern h1{
+        text-align: center;
+        width: 100%;
+    }
+
+   
+    .shop-by-concern img {
+        max-width: 80px;
+    }
+
+    .shop-by-concern h3 {
+        font-size: 13px;
+    }
+
+    .product-banner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .freq-booked-lab-tests > h1 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    
+    .product-banner > div > h4:nth-child(2) {
+        font-size: 16px;
+    }
+    
+    .product-banner > div > div > h4 {
+        font-size: 18px;
+    }
+    
+    .product-banner > div > div > h4 > span {
+        font-size: 14px;
+    }
+
+
+
+
+    .why-choose-us > div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why-choose-us > div > div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why-choose-us > div > div img {
+        height: 70px;
+    }
+
+    .why-choose-us > div > div h1 {
+        font-size: 22px;
+    }
+
+    .why-choose-us > div > div p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: 30px;
+        margin-right: 10px;
+    }
+    
+    .nav {
+        padding: 10px;
+    }
+
+    .cards-layout > div {
+        width: 100%;
+        padding: 15px;
+        flex-direction: column; /* Stack image and text */
+        align-items: center;
+        text-align: center;
+    }
+
+    .cards-layout > div img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .cards-layout > div p {
+        font-size: 13px;
+    }
+
+    .become-plus-member h2 {
+        font-size: 18px;
+    }
+
+    .become-plus-member p {
+        font-size: 13px;
+    }
+
+    .become-plus-member button {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .become-plus-member img {
+        max-width: 130px;
+    }
+
+    .product-banner {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .freq-booked-lab-tests > h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .view-all {
+        font-size: 14px;
+        right: 0;
+    }
+    
+    .product-banner > div {
+        padding: 15px 0 0 12px;
+    }
+    
+    .product-banner > div > h4:first-child {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    
+    .product-banner > div > h4:nth-child(2) {
+        font-size: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .product-banner > div > p {
+        line-height: 22px;
+        font-size: 13px;
+    }
+    
+    .product-banner > div > div > h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .product-banner > div > div > h4 > span {
+        font-size: 13px;
+    }
+    
+    .product-banner > div > div > img {
+        width: 35%;
+    }
+
+    .why-choose-us {
+        padding: 30px 15px;
+    }
+
+    .why-choose-us > h1 {
+        font-size: 24px;
+    }
+
+    .why-choose-us > div > div img {
+        height: 60px;
+    }
+
+    .why-choose-us > div > div h1 {
+        font-size: 20px;
+    }
+
+    .why-choose-us > div > div p {
+        font-size: 13px;
+    }
+}
